@@ -24,6 +24,9 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URLEncoder;
 
+/**
+ * 该类用于模拟登陆，当前不需要使用
+ */
 public class WeiboLogin {
 
     private CookieInfo cookieInfo = new CookieInfo();
@@ -69,6 +72,7 @@ public class WeiboLogin {
 
         String LoginUrl = "https://weibo.cn/?luicode=20000174";
 
+        //添加Request Header，用于模拟登陆
         cookieInfo.getGet().setURI(new URI(LoginUrl));
         cookieInfo.getGet().addHeader("Content-Type", "text/html; charset=utf-8");
         cookieInfo.getGet().addHeader("Host", "weibo.cn");

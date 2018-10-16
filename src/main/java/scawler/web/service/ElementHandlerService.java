@@ -39,12 +39,13 @@ public class ElementHandlerService {
 
         //注意这个时候还可以从里面获得当前时间
         //String publishedTime = labelElements.get(0).getElementsByTag("a").get(0).text();
+        //获得的秒数是从1900-01-01 00:00:00开始的，最后计算时间时要在年上加1900
         String seconds = labelElements.get(0).getElementsByTag("a").get(0).attr("date");
         String publishedTime = ds.Second2Date(seconds);
         String platform = labelElements.get(0).getElementsByTag("a").get(1).text();
         String content = contentElements.select("[class=WB_text W_f14]").get(0).getElementsByTag("div").get(0).text();
 
-        //获取图片地址
+        //获取图片地址（可用，但在这里没啥用）
         /*
         Elements liElements = contentElements.select("[class=WB_media_a WB_media_a_mn WB_media_a_m4 clearfix]");
         Elements imgElements = liElements.select("[class=WB_pic li_1 S_bg1 S_line2 bigcursor]");
@@ -63,16 +64,17 @@ public class ElementHandlerService {
         //转发
         emElements = buttomLiElements.get(1).select("em");
         String forwardingStr = emElements.get(1).text();
-        int forwarding = Str2Num(forwardingStr);
+        int forwarding = ds.Str2Num(forwardingStr);
         //评论
         emElements = buttomLiElements.get(2).select("em");
         String commentStr = emElements.get(1).text();
-        int comments = Str2Num(commentStr);
+        int comments = ds.Str2Num(commentStr);
         //点赞
         emElements = buttomLiElements.get(3).select("em");
         String praiseStr = emElements.get(1).text();
-        int praise = Str2Num(praiseStr);
+        int praise = ds.Str2Num(praiseStr);
 
+        //将之前获得的所有属性添加到一个Weibo类里，并将其返回
         weibo.setUid(uid);
         weibo.setUname(nickName);
         weibo.setContent(content);
@@ -85,14 +87,5 @@ public class ElementHandlerService {
         return weibo;
     }
 
-    /*
-     * 将字符串转化为整数
-     * 若碰到汉字，则为0
-     */
-    public int Str2Num(String str){
-        boolean isNum = Pattern.matches("//d+", str);
-        if (isNum)
-            return Integer.parseInt(str);
-        return 0;
-    }
+
 }

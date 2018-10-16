@@ -16,6 +16,11 @@ public class ElementGetService {
 
     private ElementHandlerService ehs = new ElementHandlerService();
 
+    /**
+     * 用于加载网页
+     * @param URL
+     * @return
+     */
     public Document getDocument(String URL){
 
         try{
@@ -27,13 +32,21 @@ public class ElementGetService {
         return null;
     }
 
+    /**
+     * 处理网页内容，将所获取的内容框都变成一个个Weibo实体
+     * @return List<Weibo>
+     * @throws IOException
+     */
     public List<Weibo> getWeibo() throws IOException {
+
         ElementGetService egs = new ElementGetService();
 
+        //将本地网页转换为网络模式
         File input = new File("/home/incentancy/workspace/Java/scrawler/src/main/resources/weibo-home.html");
-        //Document doc = Jsoup.parse(input, "UTF-8", "");
+        Document doc = Jsoup.parse(input, "UTF-8", "");
 
-        Document doc = egs.getDocument("https://weibo.com/u/6764253608/home?wvr=5");
+        //爬取网络上的网页，目前尚不可用
+        //Document doc = egs.getDocument("https://weibo.com/u/6764253608/home?wvr=5");
 
         //获取目标HTML代码
         Elements allContents = doc.select("[class=WB_feed WB_feed_v3 WB_feed_v4]");
@@ -44,6 +57,7 @@ public class ElementGetService {
 
         List<Weibo> weiboList = new ArrayList<Weibo>();
 
+        //遍历Elements将所有内容框都处理
         for(int i = 0; i < vipContents.size(); i ++){
             weiboList.add(ehs.ElementHandler(vipContents.get(i)));
         }

@@ -9,23 +9,24 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.List;
 
+/**
+ * 该类用于加载Main主方法
+ */
 public class Test {
 
     public static void main(String[] args){
 
         ElementGetService egs = new ElementGetService();
-        WeiboLogin weiboLogin = new WeiboLogin();
+        //WeiboLogin weiboLogin = new WeiboLogin();
         List<Weibo> weiboList = null;
 
         try {
-            weiboLogin.Login();
+            //weiboLogin.Login();
             weiboList = egs.getWeibo();
             for(Weibo weibo: weiboList){
                 System.out.println(weibo);
             }
         } catch (IOException e) {
-            e.printStackTrace();
-        } catch (URISyntaxException e) {
             e.printStackTrace();
         }
     }
