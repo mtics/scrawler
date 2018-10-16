@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6bc24cd3-d88d-45a7-b712-5c88b42b6afb" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1902493938">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="4" />
+          <entry key="java" value="1640" />
+          <entry key="xml" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1640" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scawler/web/service/WeiboLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="75" column="63" lean-forward="true" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1640#1802#0" expanded="true" />
+                <element signature="e#1801#1802#0" expanded="true" />
+                <element signature="e#1863#1883#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scawler/web/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scawler/web/entity/CookieInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scawler/web/entity/Weibo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+              <folding>
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1290#1291#0" expanded="true" />
+                <element signature="e#1322#1323#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1398#1399#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+                <element signature="e#1499#1500#0" expanded="true" />
+                <element signature="e#1542#1543#0" expanded="true" />
+                <element signature="e#1580#1581#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/scawler/web/entity/Weibo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/scawler/web/service/WeiboCN.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scawler/web/entity/Cookie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scawler/web/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scawler/web/service/WeiboLogin.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="292" />
+    <option name="y" value="22" />
+    <option name="width" value="1400" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539673479066" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scawler.web.Test" />
+      <module name="scrawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scawler.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bc24cd3-d88d-45a7-b712-5c88b42b6afb" name="Default Changelist" comment="" />
+      <created>1539603111129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539603111129</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-6" width="1855" height="1086" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1867036" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32914045" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9245283" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Scawler/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scawler/web/entity/Weibo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+          <folding>
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scawler/web/service/WeiboCN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scawler/web/entity/CookieInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scawler/web/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scawler/web/service/WeiboLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="75" column="63" lean-forward="true" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1640#1802#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1863#1883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
