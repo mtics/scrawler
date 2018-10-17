@@ -24,6 +24,9 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URLEncoder;
 
+/**
+ * 该类用于模拟登陆，当前不需要使用
+ */
 public class WeiboLogin {
 
     private CookieInfo cookieInfo = new CookieInfo();
@@ -67,11 +70,12 @@ public class WeiboLogin {
 
     public void Login() throws ClientProtocolException, IOException, URISyntaxException{
 
-        String LoginUrl = "https://weibo.com/u/6764253608/home";
+        String LoginUrl = "https://weibo.cn/?luicode=20000174";
 
+        //添加Request Header，用于模拟登陆
         cookieInfo.getGet().setURI(new URI(LoginUrl));
-        cookieInfo.getGet().addHeader("Content-Type", "application/x-www-form-urlencoded");
-        cookieInfo.getGet().addHeader("Host", "weibo.com");
+        cookieInfo.getGet().addHeader("Content-Type", "text/html; charset=utf-8");
+        cookieInfo.getGet().addHeader("Host", "weibo.cn");
         cookieInfo.getGet().addHeader("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36");
         cookieInfo.getGet().addHeader("API-RemoteIP", "192.168.0.1");
         cookieInfo.getGet().addHeader("X-Forwarded-For","192.168.0.1");
@@ -79,9 +83,9 @@ public class WeiboLogin {
         cookieInfo.getGet().addHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8");
         cookieInfo.getGet().addHeader("Accept-Language", "zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3");
         cookieInfo.getGet().addHeader("Accept-Encoding", "gzip, deflate, br");
-        cookieInfo.getGet().addHeader("Referer", "https://weibo.com/");
+        cookieInfo.getGet().addHeader("Referer", " https://passport.weibo.cn/signin/login?entry=mweibo&r=https%3A%2F%2Fweibo.cn%2F%3Fluicode%3D20000174&backTitle=%CE%A2%B2%A9&vt=");
         cookieInfo.getGet().addHeader("Connection", "keep-alive");
-        cookieInfo.getGet().addHeader("Cookie", "_s_tentry=www.google.com.hk; Apache=4193227394942.791.1539672586256; SINAGLOBAL=4193227394942.791.1539672586256; ULV=1539672586279:1:1:1:4193227394942.791.1539672586256:; TC-Ugrow-G0=968b70b7bcdc28ac97c8130dd353b55e; login_sid_t=c2f80392436a2b986f16b3709b75f6a1; cross_origin_proto=SSL; TC-V5-G0=866fef700b11606a930f0b3297300d95; WBStorage=e8781eb7dee3fd7f|undefined; UOR=www.google.com.hk,www.weibo.com,login.sina.com.cn; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9Wh3EI8IgOIMxy9Q3753gY1E5JpX5K2hUgL.FoqNSoBESKecehn2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMcS0qXeo-0So5R; ALF=1571208629; SSOLoginState=1539672630; SCF=Ak4xZU6jYS0zQqXv9GbgDd-2Xp-EtjPGGMjmQ8goDYAFqF8bE5XrQa43OjpJLLgd8Q6eTiXurmJ5LMeZD9r1nPU.; SUB=_2A252wfpnDeRhGeBJ7VYT9S3KyzSIHXVVt2yvrDV8PUNbmtBeLRnmkW9NRilERxM8V6z9-ZDv-0GwoqQm2gUz0lFI; SUHB=0FQrtk-uRnbhPa; un=18744720966");
+        cookieInfo.getGet().addHeader("Cookie", "SCF=AicAXu8Ojskyd9EA_yFZnluHp0M_xYLrffcGYvSAIaQhaPwWV-VKA3HnEpxP86s5ra00VLETFDLInQEsIZXf53A.; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9Wh3EI8IgOIMxy9Q3753gY1E5JpX5K-hUgL.FoqNSoBESKecehn2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMcS0qXeo-0So5R; _T_WM=21894e700cf4b4922b2d9ad38a50a791; MLOGIN=1; M_WEIBOCN_PARAMS=luicode%3D20000174; SUB=_2A252waD1DeRhGeBJ7VYT9S3KyzSIHXVSTcC9rDV6PUJbkdAKLVbbkW1NRilER0PQ1TCtXN79rlPoughCr46PGbVw; SUHB=0u5R0naprfboo7; SSOLoginState=1539690661");
 
         HttpResponse response = cookieInfo.getClient().execute(cookieInfo.getGet());
         HttpEntity entity = response.getEntity();
